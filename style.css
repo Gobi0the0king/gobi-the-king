@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    background-color: black;
+}
+
+
+#aboutme h2{
+    color: rgb(231, 9, 9);
+}
+#aboutme p{
+color: black;
+}
+
+#contact h2{
+    color: rgb(231, 9, 9);
+}
+form{
+    font-size: larger;
+    color: black;
+}
+form button{
+    padding: 0cap;
+}
+#aboutme{
+    background-color:darkgrey;}
+    #contact{
+        background-color: darkgrey;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: darkgray;
+        display: flex;
+        justify-content: space-between;
+        align-items:right ;
+        padding: 25px 60px;
+        z-index: 100;
+    }
+    footer{
+        justify-content: center;
+        padding-left: 100px;
+        text-align: center;
+        padding-top: 10;
+    }
+    footer h2 {
+        text-align: center;
+    }
+    .logo{
+        color: rgb(238, 15, 15);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
